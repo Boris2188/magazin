@@ -1,0 +1,12 @@
+# created by virtualenv automatically
+__pychache__/
+*.рус
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+poetry.lock
+.idea/
+.vscode/
