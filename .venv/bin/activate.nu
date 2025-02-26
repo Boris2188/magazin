@@ -47,10 +47,10 @@ export-env {
     let new_path = ($env | get $path_name | prepend $venv_path)
 
     # If there is no default prompt, then use the env name instead
-    let virtual_env_prompt = (if ('magazin-project-py3.8' | is-empty) {
+    let virtual_env_prompt = (if ('magazin-project-py3.11' | is-empty) {
         ($virtual_env | path basename)
     } else {
-        'magazin-project-py3.8'
+        'magazin-project-py3.11'
     })
 
     let new_env = {

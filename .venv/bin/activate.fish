@@ -70,8 +70,8 @@ set -gx PATH "$VIRTUAL_ENV"'/bin' $PATH
 
 # Prompt override provided?
 # If not, just use the environment name.
-if test -n 'magazin-project-py3.8'
-    set -gx VIRTUAL_ENV_PROMPT 'magazin-project-py3.8'
+if test -n 'magazin-project-py3.11'
+    set -gx VIRTUAL_ENV_PROMPT 'magazin-project-py3.11'
 else
     set -gx VIRTUAL_ENV_PROMPT (basename "$VIRTUAL_ENV")
 end

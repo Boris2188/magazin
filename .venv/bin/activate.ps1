@@ -37,8 +37,8 @@ deactivate -nondestructive
 $VIRTUAL_ENV = $BASE_DIR
 $env:VIRTUAL_ENV = $VIRTUAL_ENV
 
-if ("magazin-project-py3.8" -ne "") {
-    $env:VIRTUAL_ENV_PROMPT = "magazin-project-py3.8"
+if ("magazin-project-py3.11" -ne "") {
+    $env:VIRTUAL_ENV_PROMPT = "magazin-project-py3.11"
 }
 else {
     $env:VIRTUAL_ENV_PROMPT = $( Split-Path $env:VIRTUAL_ENV -Leaf )

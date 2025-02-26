@@ -55,8 +55,8 @@ _OLD_VIRTUAL_PATH="$PATH"
 PATH="$VIRTUAL_ENV/bin:$PATH"
 export PATH
 
-if [ "xmagazin-project-py3.8" != x ] ; then
-    VIRTUAL_ENV_PROMPT="magazin-project-py3.8"
+if [ "xmagazin-project-py3.11" != x ] ; then
+    VIRTUAL_ENV_PROMPT="magazin-project-py3.11"
 else
     VIRTUAL_ENV_PROMPT=$(basename "$VIRTUAL_ENV")
 fi

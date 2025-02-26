@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"
 
 
 
-if ('magazin-project-py3.8' != "") then
-    setenv VIRTUAL_ENV_PROMPT 'magazin-project-py3.8'
+if ('magazin-project-py3.11' != "") then
+    setenv VIRTUAL_ENV_PROMPT 'magazin-project-py3.11'
 else
     setenv VIRTUAL_ENV_PROMPT "$VIRTUAL_ENV:t:q"
 endif
