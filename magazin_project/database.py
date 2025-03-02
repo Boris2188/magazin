@@ -6,10 +6,16 @@ def creat_table():
         cur = conn.cursor()
         cur.execute("""CREATE TABLE IF NOT EXISTS products(
         tovar TEXT,
-        cena INTEGER,
+        cena REAL,
         kolicestvo INTEGER
         )""")
         print("Таблица магазин создана")
+
+        cur.execute("""CREATE TABLE IF NOT EXISTS sales_report(
+        tovar TEXT,
+        kolicestvo_prodaz INTEGER,
+        suma_prodaz REAL)
+        """)
 
 
 @contextmanager
