@@ -5,7 +5,6 @@ import time
 
 view = view.Output()
 control = DataBaseControl()
-action = None
 
 def first_action():
     """Добавление товара."""
@@ -20,7 +19,8 @@ def second_action():
 def third_action():
     """Продажа товара."""
     product_data = view.info_select_product()
-    control.check_product_quantity(product_data)
+    a = view.select_product()
+    control.check_product_quantity(a)
 
 def fourth_action():
     """Генерация отчета о продажах."""
